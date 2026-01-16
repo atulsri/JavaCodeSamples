@@ -4,7 +4,7 @@ public class HeapMemoryDemo {
 
     public static void main(String[] args) {
 
-        System.out.println("Allocating memory on HEAP...");
+        System.out.println("Allocating memory on HEAP");
         Runtime runtime = Runtime.getRuntime();
         long maxHeap = runtime.maxMemory();
         long totalHeap = runtime.totalMemory();
